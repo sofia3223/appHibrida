@@ -2,14 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { CompMenuComponent } from '../comp-menu/comp-menu.component';
 
-
 @Component({
-  selector: 'app-comp-inicio',
+  selector: 'app-comp-nosotros',
   standalone: true,
   imports: [RouterOutlet,RouterLink,RouterLinkActive,CompMenuComponent],
-  templateUrl: './comp-inicio.component.html',
-  styleUrl: './comp-inicio.component.css'
+  templateUrl: './comp-nosotros.component.html',
+  styleUrl: './comp-nosotros.component.css'
 })
-export class CompInicioComponent {
+export class CompNosotrosComponent {
 
 }
